@@ -1,0 +1,556 @@
+:root{
+    --box-shadow:0px 0px 10px rgb(167, 167, 167);
+}
+
+*{
+    box-sizing: border-box;
+}
+body
+{
+    font-size: medium;
+    width:auto;
+    background:black;
+    overflow-x:hidden;
+    padding: 0;
+    margin:0;
+    height:100%;
+    position:relative;
+}
+.header
+{
+    position: relative;
+    top: 2rem;
+    left:22rem;
+    width: 52%;
+    padding:1.5rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border-radius:2rem;
+    height:75px;
+}
+
+.header .navbar
+{
+    position: relative;
+}
+
+
+.header .navbar a
+{
+    font-size:22px;
+    color: grey;
+    font-style: italic;
+    align-items: center;
+    padding:2rem;
+    text-decoration: none;
+}
+
+.header .navbar a:hover
+{
+    color:red;
+    transition: color 0.3s ease;
+}
+
+.header .date
+{
+    margin-left:1rem;
+    position:relative;
+    color:white;
+    font-style: italic;
+    font-size: 20px;
+    left:77%;
+    top:-5rem;
+}
+
+.header .date span{
+    color:white;
+}
+
+.vertical_line {
+    width: 10px;
+    height: 100%; /* Full height of viewport */
+    background-color: rgb(185, 14, 14);
+    position: fixed;
+    left: 15%; /*Places it in the middle */
+    top: 0;
+    bottom:0;
+   
+}
+
+.vertical_line2 {
+    width: 10px;
+    height: 100%; /* Full height of viewport */
+    background-color: rgb(185, 14, 14);
+    position: fixed;
+    left: 18%; /*Places it in the middle */
+    top: 0;
+}
+
+.horizontal_line 
+{
+    width: 100%;
+    height: 8px; /* Full height of viewport */
+    background-color: white;
+    position: relative;
+    left: 0%; /*Places it in the middle */
+    top: 40rem;
+}
+
+.footer
+{
+    position:relative;
+    margin-top: -4rem;
+    bottom: 0%;
+    left:18%;
+    width: 70%;
+    padding:1.5rem; /*distance b/w element and padding */
+    text-align: center;
+    /* box-shadow: var(--box-shadow); */
+}
+
+.footer a
+{
+    position:relative;
+    bottom:0rem;
+    text-decoration: none;
+    color: grey;
+    font-style: italic;
+    font-size:22px;
+    padding:2rem;
+}
+
+.footer a:hover
+{
+    color:red;
+}
+
+.hero .name{
+    position:relative;
+    top:5rem;
+    left:5rem;
+    color:white;
+    font-style: bold;
+    font-size:75px;
+}
+
+.hero .photo img
+{
+    position:relative;
+    top:8.5rem;
+    left:5rem;
+    border:5px; 
+    box-shadow:0px 0px 50px red;
+    border-radius:2rem;
+}
+
+.hero .branch{
+    position:relative;
+    top:-19rem;
+    left:770px;
+    color:white;
+    font-style: bold;
+    font-size:35px;
+    text-decoration: underline;
+}
+
+.hero .intro{
+    position:relative;
+    display:flex;
+    bottom:14rem;
+    left:670px;
+    color:white;
+    font-style: italic;
+    font-size:25px;
+    box-shadow:5px 5px 8px white;
+    border-radius:2rem;
+    width:45rem;
+    padding:1rem;
+    margin-right: 3rem;
+    display:flex;
+
+}
+
+.hero .college{
+    position:relative;
+    top:-7rem;
+    left:650px;
+    color:white;
+    font-style: bold;
+    font-size:35px;
+}
+
+.education .name{
+    position: relative;
+    left:575px;
+    top:0rem;
+    color:white;
+    font-size: 75px
+}
+
+.education .line{
+    width: 80%;
+    height: 8px;
+    background-color:white;
+    position:relative;
+    top:0rem;
+    left:8rem;
+}
+
+.education .BE
+{
+ display:flex;
+ position:relative;
+ top:3rem;
+ left:300px;
+ color:white;
+ background-color:black;
+ width:60%;
+ height:27%;   
+ box-shadow:0px 0px 50px red;
+ border-radius: 3rem;
+ opacity: 0.85;
+}
+
+.education .BE h1
+{
+   position:relative;
+   top:-1rem;
+   left:275px;
+   font-weight: bold;
+   white-space: nowrap;
+   text-decoration: underline;
+}
+
+.education .BE p {
+    display:flex;
+    position:relative;
+    top: 1.5rem;
+    color: white;
+    left:-275px;
+    white-space:nowrap;
+    font-size:25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.education .pu
+{
+ display:flex;
+ position:relative;
+ top:8rem;
+ left:300px;
+ color:white;
+ background-color:black;
+ width:60%;
+ height:22%; 
+ box-shadow:0px 0px 50px red;
+ border-radius: 3rem;
+ opacity: 0.85;
+ padding:1rem;
+}
+
+.education .pu h1
+{
+    position:relative;
+    top:-2rem;
+    left:350px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+.education .pu p {
+    display:flex;
+    position:relative;
+    top: 0.4rem;
+    color: white;
+    left:-133px;
+    white-space:nowrap;
+    font-size:25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* .education .line1
+{
+    width: 100%;
+    height: 8px;
+    background-color:rgb(185, 14, 14);;
+    position:relative;
+    top:0rem;
+    left:8rem;
+}
+
+.education .line2
+{
+    width: 100%;
+    height: 8px;
+    background-color:rgb(185, 14, 14);;
+    position:relative;
+    top:1rem;
+    left:8rem;
+} */
+
+.education .ten{
+    display:flex;
+    position:relative;
+    top:13rem;
+    left:300px;
+    color:white;
+    background-color:black;
+    width:60%;
+    height:22%; 
+    box-shadow:0px 0px 50px red;
+    border-radius: 3rem;
+    opacity: 0.85;
+    padding:1rem;
+    margin-bottom: 350px;
+}
+
+.education .ten h1
+{
+    position:relative;
+    top:-2rem;
+    left:350px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+.education .ten p {
+    display:flex;
+    position:relative;
+    top: 0.4rem;
+    color: white;
+    left:-133px;
+    white-space:nowrap;
+    font-size:25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+
+/* skill section css */
+
+.skill .name{
+    position: relative;
+    left:635px;
+    top:0;
+    color:white;
+    font-size: 75px
+}
+
+.skill .line{
+    width: 80%;
+    height: 8px;
+    background-color:white;
+    position:relative;
+    top:0rem;
+    left:8rem;
+}
+
+
+.skill .technical {
+    display:flex;
+    position:relative;
+    top:4rem;
+    left:300px;
+    color:white;
+    background-color:black;
+    width:60%;
+    height:25%; 
+    box-shadow:0px 0px 50px red;
+    border-radius: 3rem;
+    opacity: 0.85;
+    padding:1rem;
+}
+
+
+.skill .technical h1
+{
+    position:relative;
+    top:-2rem;
+    left:350px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+
+.skill .technical p
+{
+    display:flex;
+    position:relative;
+    top: 0.4rem;
+    color: white;
+    left:-4rem;
+    white-space:nowrap;
+    font-size:25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.skill .nontech {
+    display:flex;
+    position:relative;
+    top:9rem;
+    left:300px;
+    color:white;
+    background-color:black;
+    width:60%;
+    height:25%; 
+    box-shadow:0px 0px 50px red;
+    border-radius: 3rem;
+    opacity: 0.85;
+    padding:1rem;
+    margin-bottom: 350px;
+}
+
+
+.skill .nontech h1
+{
+    position:relative;
+    top:-2rem;
+    left:350px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+
+.skill .nontech p
+{
+    display:flex;
+    position:relative;
+    top: 0.4rem;
+    color: white;
+    left:-8rem;
+    white-space:nowrap;
+    font-size:25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.portfolio .name{
+    position: relative;
+    left:635px;
+    top:0;
+    color:white;
+    font-size: 75px
+}
+.portfolio .line{
+    width: 80%;
+    height: 8px;
+    background-color:white;
+    position:relative;
+    top:0rem;
+    left:8rem;
+}
+
+.portfolio .data
+{
+    display:flex;
+    position:relative;
+    top:4rem;
+    left:300px;
+    color:white;
+    background-color:black;
+    width:60%;
+    height:25%; 
+    box-shadow:0px 0px 50px red;
+    border-radius: 3rem;
+    opacity: 0.85;
+    padding:1rem;
+    
+}
+
+.portfolio .data p
+{
+    display:flex;
+    position:relative;
+    top: 0.4rem;
+    color: white;
+    left:20rem;
+    white-space:nowrap;
+    font-size:25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.portfolio .data2
+{
+    display:flex;
+    position:relative;
+    top:8rem;
+    left:300px;
+    color:white;
+    background-color:black;
+    width:60%;
+    height:25%; 
+    box-shadow:0px 0px 50px red;
+    border-radius: 3rem;
+    opacity: 0.85;
+    padding:1rem;
+}
+
+.portfolio .data2 p
+{
+    display:flex;
+    position:relative;
+    top: 0.4rem;
+    color: white;
+    left:20rem;
+    white-space:nowrap;
+    font-size:25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    align-items: center;
+}
+
+.portfolio .data3
+{
+    display:flex;
+    position:relative;
+    top:13rem;
+    left:300px;
+    color:white;
+    background-color:black;
+    width:60%;
+    height:25%; 
+    box-shadow:0px 0px 50px red;
+    border-radius: 3rem;
+    opacity: 0.85;
+    padding:1rem;
+    margin-bottom: 350px;
+    
+}
+
+.portfolio .data3 p
+{
+    display:flex;
+    position:relative;
+    top: 0.4rem;
+    color: white;
+    left:20rem;
+    white-space:nowrap;
+    font-size:25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    align-items: center;
+}
+.contact-page .name{
+    position: relative;
+    left:635px;
+    top:0;
+    color:white;
+    font-size: 75px
+} 
+
+.contact-page .line
+{
+    width: 80%;
+    height: 8px;
+    background-color:white;
+    position:relative;
+    top:0rem;
+    left:8rem;
+}
+
+
+
