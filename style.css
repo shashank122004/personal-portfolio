@@ -456,16 +456,20 @@ body
     border-radius: 3rem;
     opacity: 0.85;
     padding:1rem;
-    
+    flex-wrap: wrap;
+    font-size: 30px;
 }
-
+.portfolio .data a{
+    text-decoration: none;
+    color: red;
+}
 .portfolio .data p
 {
     display:flex;
     position:relative;
     top: 0.4rem;
     color: white;
-    left:20rem;
+    left:0rem;
     white-space:nowrap;
     font-size:25px;
     margin-bottom: 20px;
